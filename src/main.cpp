@@ -8,11 +8,11 @@
 #include <DallasTemperature.h>
 
 // -------- WiFi Credentials --------
-const char* ssid = "Robotics Institute of Kenya";
-const char* password = "RObOT1C&#357";
+const char* ssid = "Lukrasta";
+const char* password = "Cycy12345";
 
 // -------- Flask server endpoint --------
-String serverURL = "http://192.168.1.56:5000/api/ds18b20";
+String serverURL = "http://192.168.100.11:5000/api/ds18b20";
 
 // -------- OLED settings --------
 #define SCREEN_WIDTH 128
